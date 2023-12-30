@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is the heading of my website.</h1><br>
+    <h2>This is heading 2 of the website.</h2><br>
+    <h3>This is heading 3 of the website.</h3><br>
+    <p>This is a paragraph.</p><br>
+    <pre>this is pre tag ,i can show/add spaces in the                          text </pre>
+    <br>
+    <!-- to add links -->
+    <a href="education.html">Education qualifications </a><br>
+    <a href="/education copy.html">Education qualifications </a><br>
+            <!-- to open links in new tab -->
+            <a href="education.html" target= "_main">Education qualifications (new tab)
+            </a><br>
+    <br>
+    <!-- this is for text formatting -->
+    <b>BOLD</b><br>
+    <i>italic</i><br>
+    <u>Underline</u>
+        <!--Text in Strong-->
+        <br>
+        <strong>Hello Geeks</strong>
+        <br>
+        <!--Text in small-->
+        <small>Hello Geeks</small>
+        <br>
+        <!--Text in Highlight-->
+        <mark>Hello Geeks</mark>
+        <br><br>
+    <!-- To add image -->
+    <img src="https://img.freepik.com/premium-photo/bangkok-
+    thailand-08082022-lamborghini-luxury-super-car-
+    fast-sports-premium-lighting-background-
+    3d-illustration_67092-1599.jpg" alt="lamborghini" height="250" align="center">
+    <br>
+    <figure>
+        <img src="https://img.freepik.com/premium-photo/bangkok-
+        thailand-08082022-lamborghini-luxury-super-car-
+        fast-sports-premium-lighting-background-
+        3d-illustration_67092-1599.jpg" alt ="lambo" height="250">
+        <figcaption>Lamborghini</figcaption>
+    </figure>
+    <!-- to add link to an image-->
+    <br>
+    <a href="https://auto.mahindra.com/suv/thar" target="_main"> 
+    <img src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/40087/thar-exterior-right-front-three-quarter-32.jpeg?q=80" height="250"></a>
+    <br>
+    <p>click on me ^</p>
+    <!-- to add semantic tags i.e<article>
+        <aside><details><figcaption><figure><footer><header><main><mark>
+        <nav><section><summary><time>-->
+    <header>
+        <h1>This is the header tag</h1>
+    </header>
+    <main>
+        <h2>this is main tag</h2>
+    </main>
+    <footer>
+        <h3>this is footer tag</h3>
+    </footer>
+    <br>
+    <!-- non semantic tags i.e div and span-->
+    <div>
+        this is div block and its takes full width space
+    </div>
+    <br>
+    <span>this is span tag and it only take space that it requires</span>
+    <!--to add list or to order the text-->
+        <!-- to add unordered list -->
+        <ul>
+            <li>one</li>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <!-- to add ordered list type="1"(default),type="A",type="a",type="I",type="i"-->
+        <ol>
+            <li>one</li>
+            <ol>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+        <!-- to add definition list -->
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+        <!-- to add tables -->
+        <table>
+            <caption><b>Student data</b></caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Roll number and color</th>
+                </tr>
+            </thead>
+            <tbody>
+                tr>
+                    <td>Sourav</td>
+                    <td>22bcs16957</td>
+                    <td>blue</td>
+                </tr>
+                <tr>
+                    <td>Sourav 2.0</td>
+                    <td>22bcs16957 2.0</td>
+                    <td>green</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <!--- to add forms-->
+            <!-- input types -->
+        <br>
+        <h3>Registration form</h3>
+        <form action="/action.php">
+            <input type="text" placeholder="Enter your email id"><br><br>
+            <input type="password" placeholder="Enter your password">
+            <h4>Enter your year of College/University</h4>
+            <label for="1">
+                <input type="radio" value="1" id="1" name="year">1st year
+            </label>
+            <br><br>
+            <label for="2">
+                <input type="radio" value="2" id="2" name="year">2nd year
+            </label>
+            <br><br>
+            <label for="3">
+                <input type="radio" value="2" id="3" name="year">3rd year
+            </label>
+            <br><br>
+            <label for="4">
+                <input type="radio" value="4" id="4" name="year">4th year
+            </label>
+            <br>
+            <br>
+            <h4>Enter your choices</h4>
+            <label for="101">
+                <input type="checkbox" value="1" id="101" name="choices">choice 1
+            </label>
+            <br><br>
+            <label for="102">
+                <input type="checkbox" value="2" id="102" name="choices">choice 2
+            </label>
+            <br><br>
+            <label for="103">
+                <input type="checkbox" value="3" id="103" name="choices">choice 3
+            </label>
+            <br><br>
+            <label for="104">
+                <input type="checkbox" value="4" id="104" name="choices">choice 4
+            </label>
+            <br><br>
+            <!--<select>-->
+            <p>Select your course</p>
+            <select>
+                <option disabled value="b.tech kulche wala">b.tech kulche wala</option><br>
+                <option selected hidden value="b.tech cse">b.tech cse</option><br>
+                <option value="b.tech mech">b.tech mech</option><br>
+                <option value="b.tech elec">b.tech elec</option><br>
+            </select>
+            <!-- textarea -->
+            <br><br>
+            <textarea name="feedback" placeholder="Enter your feedbacks here" rows="6" cols="50" ></textarea>
+
+        </form>
+</body>
+</html>
